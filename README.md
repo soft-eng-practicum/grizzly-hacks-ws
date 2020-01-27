@@ -10,3 +10,6 @@
 1. **Erick Martinez**:
     * **Primary** - Code Architecture 
     * **Secondary** - Testing Lead
+2. **Joshua Grimaldo** :frog: :star: :
+    * **Primary** - Team Manager
+    * **Secondary** - UI/UX Design
