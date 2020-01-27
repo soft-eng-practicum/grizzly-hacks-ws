@@ -7,9 +7,9 @@
 
 ## **Team Roles**:
 
-1. **Erick Martinez**:
+1. **Erick Martinez** :coffee: :scroll:
     * **Primary** - Code Architecture 
     * **Secondary** - Testing Lead
-2. **Joshua Grimaldo** :frog: :star: :
+2. **Joshua Grimaldo** :frog: :star: 
     * **Primary** - Team Manager
     * **Secondary** - UI/UX Design
