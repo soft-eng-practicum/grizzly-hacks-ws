@@ -16,3 +16,6 @@
 3. **Zachary Idrees** :fire: :fox_face:  
     * **Primary** - Code Architecture
     * **Secondary** -Data Modeler
+4. **Josiah Williams** :eggplant: :octopus:  
+    * **Primary** - Documentation Lead
+    * **Secondary** -Client Liason
