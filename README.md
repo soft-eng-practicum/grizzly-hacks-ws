@@ -13,6 +13,6 @@
 2. **Joshua Grimaldo** :frog: :star: 
     * **Primary** - Team Manager
     * **Secondary** - UI/UX Design
-3. **Zachary Idrees** :snowflake: :leopard:  
+3. **Zachary Idrees** :fire: :fox_face:  
     * **Primary** - Code Architecture
     * **Secondary** -Data Modeler
