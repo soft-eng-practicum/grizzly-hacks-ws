@@ -10,7 +10,7 @@
 1. **Erick Martinez** :coffee: :scroll:
     * **Primary** - Code Architecture 
     * **Secondary** - Testing Lead
-2. **Joshua Grimaldo** :frog: :star: 
+2. **Joshua Grimaldo** :star: :frog: 
     * **Primary** - Team Manager
     * **Secondary** - UI/UX Design
 3. **Zachary Idrees** :fire: :fox_face:  
