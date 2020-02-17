@@ -5,6 +5,12 @@
 ### We are currently using [**Discord**](https://tinyurl.com/v42ww54) to communicate. 
 ![Discord Icon](https://img.icons8.com/plasticine/2x/discord-logo.png)
 
+## Tools: ##
+1. ## Javascript ##
+2. ## React Js ##
+3. ## HTML/CSS ##
+4. ## EventBrite ##
+
 ## **Team Roles**:
 
 1. **Erick Martinez** :coffee: :scroll:
