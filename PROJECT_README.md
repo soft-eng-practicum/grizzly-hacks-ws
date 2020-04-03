@@ -11,6 +11,8 @@
 3. ## HTML/CSS ##
 4. ## EventBrite ##
 
+### [License](https://creativecommons.org/licenses/by-nc/4.0/) 
+
 ## **Team Roles**:
 
 1. **Erick Martinez** :coffee: :scroll:
