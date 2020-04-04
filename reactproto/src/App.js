@@ -40,31 +40,37 @@ const getWidth = () => {
 
 const HomepageHeading = ({ mobile }) => (
   <Container text id="home">
+
+    {/* Grizzly Bear Image */}
     <div class="img-container" style={{
-      marginTop: 60,
+      marginTop: 20,
     }}><a target="_blank" href="https://discord.gg/m8rKscc">
         <img height= {mobile ? "200" :'400'} width = {mobile ? "200" :'400'}  src="https://cdn.discordapp.com/attachments/644576730597818379/658752630968811530/squircle.png" />
       </a>
     </div>
+
+    {/* GRIZZLY HACKS 2020 Text */}
     <Header
       as='h1'
       content='Grizzly Hacks 2020'
       inverted
       style={{
-        fontSize: mobile ? '2em' : '4.7em',
+        fontSize: mobile ? '2em' : '4.7em', //2em when mobile, 4.7 otherwise
         fontWeight: 'normal',
         marginBottom: -20,
         marginTop: mobile ? -25 : -50,
       }}
     />
+    
+    {/* Register now! text*/}
     <Header
       as='h2'
       content='Register now!'
       inverted
       style={{
-        fontSize: mobile ? '1.5em' : '1.7em',
+        fontSize: mobile ? '1.5em' : '1.7em', //1.5em when mobile, 4.7 otherwise
         fontWeight: 'normal',
-        marginTop: mobile ? '0.5em' : '1.5em',
+        marginTop: '1em'
         
       }}
     />
