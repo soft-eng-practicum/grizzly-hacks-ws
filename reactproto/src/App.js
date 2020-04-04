@@ -263,12 +263,14 @@ const HomepageLayout = ({mobile}) => (
 
     <Segment 
     inverted
-    textAlign='center'
+    textAlign= 'center'
     style={{ 
       minHeight: 350, 
       padding: '1 em 0em',
     }}
     vertical id="faq">
+
+{/* Beginning of FAQ Section */}
 
 {/* This is the header for FAQ */}
 <Header 
@@ -285,8 +287,6 @@ size='huge'>FREQUENTLY ASKED QUESTIONS</Header>
   fontSize: 18,
   width: 1000
 }} compact color = 'black'>
-
-{/* Beginning of FAQ Section */}
 
 {/* FIRST FAQ QUESTION 
     Has icon and size of icon
@@ -327,7 +327,7 @@ Has icon and size of icon
   <Message style={{
   color: 'white',
   fontSize: 18,
-  width: 1000
+  width: mobile ? 1 : 1000
 }} compact color = 'black'>
   {/* ENDING OF SECOND FAQ QUESTION */}
   
