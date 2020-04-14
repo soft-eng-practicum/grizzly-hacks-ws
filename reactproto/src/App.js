@@ -5,9 +5,9 @@ import Nav from './Nav';
 import FAQ from './FAQ';
 import Schedule from './Schedule';
 import Home from './Home';
-import Footer from './Footer';
+import Footer from './footer';
 import Sponsor from './Sponsor';
-import About from './About';
+import About from './about';
 import Practice from './Practice';
 import NotFoundPage from './NotFoundPage';
 // We are using {} because we are importing specific things from react-router-dom
