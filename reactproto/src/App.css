@@ -1,47 +1,47 @@
-/* .App {
+.App {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-.App-header {
-  background-color: white;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 5vh;
+  background: black;
+  color: white;
+  padding-top: 0.75%;
+  padding-bottom: 6px;
+ 
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* background : url('grizzly.png') no-repeat 0 0; */
+  /* margin-left: 10px; */
+}
+
+.nav-links p:hover {
+  background-color: green;
+}
+
+.dummy {
+  color: black;
+
+  padding: 100px;
+  margin: 200px;
+}
+
+.wrongPage{
+  padding: 100px;
+  margin: 300px;
   color: red;
-}
-
-/* .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-.text{
-  color: green;
-  
-}
-
-.HomepageLayout{
-  color: aqua;
+ 
 }
