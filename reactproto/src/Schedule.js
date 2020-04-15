@@ -5,7 +5,7 @@ import {
   Segment,
   Table,
 } from 'semantic-ui-react'
-
+import Fade from 'react-reveal/Fade';
 
 const scheduleTables= () => (
     <Segment inverted >
@@ -13,8 +13,8 @@ const scheduleTables= () => (
 
   {/* This show the header for schedule  */}
   <Segment inverted style={{ padding: '1em 0em', margin: '-29px' }} vertical id="schedule">
-    <Header style={{marginTop: 100, padding: '30px'
-    }}size='huge'>Schedule</Header>
+    <Fade top><Header style={{color: 'white', marginTop: 100, padding: '30px'
+    }}size='huge'>Schedule</Header></Fade>
   </Segment>
   
   {/* BEGINNING OF FIRST TABLE FOR SCHEDULE */}
@@ -22,7 +22,7 @@ const scheduleTables= () => (
   {/* This is responsible for the table where the schedule is  */}
   {/* inverted is added so it appears black. If you want to learn more about tables
   look at Semantic UI React  */}
-  
+  <Fade bottom>
     <Table celled striped inverted fixed>
       <Table.Header>
         <Table.Row>
@@ -116,7 +116,7 @@ const scheduleTables= () => (
         </Table.Row>
       </Table.Body>
     </Table>
-
+</Fade>
   </Segment>
 )
 

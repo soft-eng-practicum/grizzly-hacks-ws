@@ -6,6 +6,7 @@ import {
   Message,
   Segment,
 } from 'semantic-ui-react'
+import Fade from 'react-reveal/Fade';
 
 const HomepageLayout = () => (
  
@@ -18,15 +19,19 @@ const HomepageLayout = () => (
       vertical id="faq">
   
   {/* This is the header for FAQ */}
-  <Header 
-  // Styling for FAQ
-  style={{
-    marginTop: 80,
-    marginBottom: 10
-  }}
-  size='huge'>FREQUENTLY ASKED QUESTIONS</Header>
+  <Fade top>
+    <Header 
+    // Styling for FAQ
+    style={{
+      color: 'white',
+      marginTop: 80,
+      marginBottom: 10
+    }}
+    size='huge'>FREQUENTLY ASKED QUESTIONS
+    </Header>
+  </Fade>
   {/* Ending of heading for FAQ */}
-  
+  <Fade>
   <Message style={{
     color: 'white',
     fontSize: 18,
@@ -38,17 +43,20 @@ const HomepageLayout = () => (
   {/* FIRST FAQ QUESTION 
       Has icon and size of icon
   */}
-  <Icon name='keyboard' size='big' />
+     <Icon name='keyboard' size='big' />
   {/* Heading for one of the FAQ questions */}
       <Message.Header>What is a hackathon?</Message.Header>
       {/* Body text for the FAQ question */}
-      <p>
-      Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti. 
-      L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
-      </p>
+      
+        <p>
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti. 
+        L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
+        </p>
     </Message>
+  </Fade>
   
   {/* Stying of FAQ question */}
+  <Fade>
     <Message style={{
     color: 'white',
     fontSize: 18,
@@ -64,13 +72,14 @@ const HomepageLayout = () => (
   {/* Heading for one of the FAQ questions */}
       <Message.Header>Do I need experience?</Message.Header>
         {/* Body text for the FAQ question */}
-      <p>
-      Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti. 
-      L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
-      </p>
+          <p>
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti. 
+        L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
+         </p>
     </Message>
-  
+  </Fade>
   {/* Stying of FAQ question */}
+  <Fade> 
     <Message style={{
     color: 'white',
     fontSize: 18,
@@ -86,14 +95,16 @@ const HomepageLayout = () => (
     {/* Header text  */}
       <Message.Header>Does it cost anything?</Message.Header>
       {/* FAQ QUESTION TEXT */}
-      <p>
-      Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti.
-       L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
-      </p>
+        <p>
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti.
+        L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
+        </p>
     </Message>
+    </Fade>
   
   
   {/* faq question styling  */}
+  <Fade>
     <Message style={{
     color: 'white',
     fontSize: 18,
@@ -110,16 +121,18 @@ const HomepageLayout = () => (
     {/* Header text */}
       <Message.Header>Where will I stay?</Message.Header>
       {/* FAQ text  */}
-      <p>
-      Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti.
-       L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
-       Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti.
+        <p>
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti.
         L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
-      </p>
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti.
+          L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
+        </p>
+      
     </Message>
+    </Fade>
   
   {/* FAQ STYING */}
-  
+  <Fade>
     <Message style={{
     color: 'white',
     fontSize: 18,
@@ -135,15 +148,16 @@ const HomepageLayout = () => (
      <Message.Header >Is food provided?</Message.Header>
      {/* Body text */}
       <p>
-      Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
       </p>
     </Message>
+    </Fade>
   
   {/* END OF FITH FAQ QUESTION */}
   
   {/* BEGINNING SIXTH FAQ QUESTION */}
   {/* FAQ STYING */}
-  
+  <Fade>
   <Message style={{
     color: 'white',
     fontSize: 18,
@@ -156,9 +170,9 @@ const HomepageLayout = () => (
       {/* Body text */}
       <p>
       Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-      </p>
-    
+      </p> 
     </Message>
+    </Fade>
   
    </Segment>
 )

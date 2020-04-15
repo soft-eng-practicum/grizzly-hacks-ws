@@ -7,6 +7,7 @@ import {
   Segment,
   Sidebar,
 } from 'semantic-ui-react'
+import Fade from 'react-reveal/Fade';
 
 const pageFooter= () => (
     <Segment inverted >
@@ -20,6 +21,7 @@ const pageFooter= () => (
             <Grid.Row>
               <Grid.Column width={3}>
                 {/* Header text */}
+                <Fade>
                 <Header inverted as='h4' content='Contact Us' id="contact"/>
                 <div>
                   {/* Has icons for the contact info in the footer */}
@@ -29,12 +31,15 @@ const pageFooter= () => (
                 <Icon link name='twitter' size='large' />
                 <Icon link name='slack' size='large' />
               </div>
+              </Fade>
               </Grid.Column>
               <Grid.Column width={3}>
                 {/* Footer text could be changed */}
-                <p>
-                  Made with 💚 by Exodia 
-                </p>
+                <Fade>
+                  <p>
+                    Made with 💚 by Exodia 
+                  </p>
+                </Fade>
               </Grid.Column>
             </Grid.Row>
           </Grid>
