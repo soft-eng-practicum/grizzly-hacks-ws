@@ -1,5 +1,5 @@
 import React from 'react';
-import CSS from './App.css';
+import './App.css';
 // Remeber if you add a new page to import it first, if you try to use it here it wihtout importing first it won't work & will cry 
 import Nav from './Nav';
 import FAQ from './FAQ';
@@ -24,13 +24,13 @@ function App() {
     <Router>
     <div className="App">
       {/* Since we want the Nav bar to load into every page, we won't put it into <Switch>. Saame goes for the Footer at the bottom */}
-    <Nav />
-    {/* 
+      <Nav />
+        {/* 
         We are using Switch becuase as soon it finds the route with that speific path
         that is the only compoennt that will render out. Everything else doesn't matter
-          */}
-    <Switch>
-      {/* Route: Renders out a component based on the URL
+              */}
+        <Switch>
+          {/* Route: Renders out a component based on the URL
 
           Path: Define path that should render out
           need to specify the componenet aka {Componenet}
@@ -51,22 +51,23 @@ function App() {
 
            I believe the order of these matter but I'm not sure but you know what they say "If it's not broken  don't touch it!"
           
-      */}
-    <Route path = "/" exact component = {Home}/>
-    <Route path = "/Home"  component = {Home}/>
-    <Route path = "/FAQ" component = {FAQ}/>
-    <Route path = "/schedule" component = {Schedule}/>
-    <Route path = "/sponsor" component = {Sponsor}/>
-    <Route path = "/about" component = {About}/>
-    <Route path = "/footer" component = {Footer}/>
-    <Route path = "/practice" component = {Practice}/>
-    <Route path = "/404" component = {NotFoundPage}/>
-    <Route component = {NotFoundPage}/>
-    </Switch>
-    <Footer />
-    </div>
+          */}
+            <Route path = "/" exact component = {Home}/>
+            <Route path = "/Home"  component = {Home}/>
+            <Route path = "/FAQ" component = {FAQ}/>
+            <Route path = "/schedule" component = {Schedule}/>
+            <Route path = "/sponsor" component = {Sponsor}/>
+            <Route path = "/about" component = {About}/>
+            <Route path = "/footer" component = {Footer}/>
+            <Route path = "/practice" component = {Practice}/>
+            <Route path = "/404" component = {NotFoundPage}/>
+            <Route component = {NotFoundPage}/>
+          </Switch>
+        <Footer />
+      </div>
     </Router>
   );  
 }
 
 
+export default App;
