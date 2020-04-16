@@ -13,7 +13,7 @@ nav {
   color: white;
   padding-top: 0.5%;
   padding-bottom: 6px;
-
+  font-weight: bold;
 }
 
 .nav-links{
@@ -28,8 +28,9 @@ nav {
   /* margin-left: 10px; */
 }
 
-.nav-links p:hover {
-  background-color: green;
+li:hover {
+  color: black;
+  font-weight: bold;
 }
 
 .dummy {
