@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 7.5vh;
+  background: #00704a;
+  color: white;
+  padding-top: 0.5%;
+  padding-bottom: 6px;
+
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* background : url('grizzly.png') no-repeat 0 0; */
+  /* margin-left: 10px; */
+}
+
+.nav-links p:hover {
+  background-color: green;
+}
+
+.dummy {
+  color: black;
+
+  padding: 100px;
+  margin: 200px;
+}
+
+.wrongPage{
+  padding: 100px;
+  margin: 300px;
+  color: red;
+ 
+}

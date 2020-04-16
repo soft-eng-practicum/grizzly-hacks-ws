@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import {
   Grid,
   Header,
+  Image,
   Segment,
+  Reveal
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
 
@@ -32,8 +34,6 @@ const aboutPage= () => (
                 </p>
               </Fade>
               
-  
-  
               {/* Header text */}
               <Fade right>
                 <Header inverted as='h3' style={{ fontSize: '2em' }}>
@@ -48,15 +48,18 @@ const aboutPage= () => (
                 of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
               </Fade>
+
             </Grid.Column>
           </Grid.Row>
+
         </Grid>
 
-        
+       
         </Segment>
   
-
   </Segment>
+
+  
 )
 
 export default aboutPage

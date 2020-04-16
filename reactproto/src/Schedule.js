@@ -7,10 +7,10 @@ import {
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
 
-const scheduleTables= () => (
-    <Segment inverted >
- 
+function schedulePage (){
 
+const firstTable= () => (
+    <Segment inverted >
   {/* This show the header for schedule  */}
   <Segment inverted style={{ padding: '1em 0em', margin: '-29px' }} vertical id="schedule">
     <Fade top><Header style={{color: 'white', marginTop: 100, padding: '30px'
@@ -22,12 +22,13 @@ const scheduleTables= () => (
   {/* This is responsible for the table where the schedule is  */}
   {/* inverted is added so it appears black. If you want to learn more about tables
   look at Semantic UI React  */}
+
   <Fade bottom>
     <Table celled striped inverted fixed>
       <Table.Header>
         <Table.Row>
           {/* Positioning of content*/}
-          <Table.HeaderCell colSpan='3' collapsing textAlign='center'>Friday, March 9th</Table.HeaderCell>
+          <Table.HeaderCell colSpan='3' collapsing textAlign='center'>Friday, Jan. 1st</Table.HeaderCell>
         </Table.Row>
       </Table.Header>
   
@@ -36,13 +37,13 @@ const scheduleTables= () => (
         <Table.Row>
           <Table.Cell collapsing textAlign = 'center'>
             {/* This displays the icon for "checkboard" using Semantic UI React */}
-            <Icon name='clipboard check' /> Check-In
+            <Icon name='clipboard check' /> TBA
           </Table.Cell>
           {/* Shows content in table  */}
-          <Table.Cell collapsing textAlign = 'center'>Building E</Table.Cell>
+          <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
           {/* Shows the time in the last column of the table  */}
           <Table.Cell collapsing textAlign='center'>
-            5:00 PM
+            TBA
           </Table.Cell>
         </Table.Row>
         <Table.Row>
@@ -50,12 +51,12 @@ const scheduleTables= () => (
           {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
           <Table.Cell collapsing textAlign = 'center'>
             {/* Shows us the icon */}
-            <Icon name='star' /> Opening Ceremony
+            <Icon name='star' /> TBA
           </Table.Cell>
           {/* Column content  */}
-          <Table.Cell collapsing textAlign = 'center'>Cisco Auditoriun</Table.Cell>
+          <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
           {/* Last column content */}
-          <Table.Cell textAlign = 'center'>6:00 PM</Table.Cell>
+          <Table.Cell textAlign = 'center'>TBA</Table.Cell>
         </Table.Row>
   
           {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
@@ -117,10 +118,140 @@ const scheduleTables= () => (
       </Table.Body>
     </Table>
 </Fade>
-  </Segment>
-)
 
-export default scheduleTables
+
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br> 
+
+  </Segment>
+) 
+
+
+const secondTable = () => (
+  <Segment inverted >
+<Segment inverted style={{ padding: '1em 0em', margin: '-29px' }} >
+</Segment>
+
+{/* BEGINNING OF SECOND TABLE FOR SCHEDULE */}
+
+{/* This is responsible for the table where the schedule is  */}
+{/* inverted is added so it appears black. If you want to learn more about tables
+look at Semantic UI React  */}
+
+<Fade bottom>
+  <Table celled striped inverted fixed>
+    <Table.Header>
+      <Table.Row>
+        {/* Positioning of content*/}
+        <Table.HeaderCell colSpan='3' collapsing textAlign='center'>Saturday, Jan. 1st</Table.HeaderCell>
+      </Table.Row>
+    </Table.Header>
+
+{/* First row of table  */}
+    <Table.Body>
+      <Table.Row>
+        <Table.Cell collapsing textAlign = 'center'>
+          {/* This displays the icon for "checkboard" using Semantic UI React */}
+          <Icon name='food' /> Breakfeast
+        </Table.Cell>
+        {/* Shows content in table  */}
+        <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
+        {/* Shows the time in the last column of the table  */}
+        <Table.Cell collapsing textAlign='center'>
+          TBA
+        </Table.Cell>
+      </Table.Row>
+      <Table.Row>
+
+        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+        <Table.Cell collapsing textAlign = 'center'>
+          {/* Shows us the icon */}
+          <Icon name='bullseye' /> TBA
+        </Table.Cell>
+        {/* Column content  */}
+        <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
+        {/* Last column content */}
+        <Table.Cell textAlign = 'center'>TBA</Table.Cell>
+      </Table.Row>
+
+        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+      <Table.Row>
+        <Table.Cell collapsing textAlign = 'center'>
+          <Icon name='bullseye' /> Workshop
+        </Table.Cell>
+        <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
+        <Table.Cell textAlign='center'>TBA</Table.Cell>
+      </Table.Row>
+      <Table.Row>
+
+        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+
+        <Table.Cell collapsing textAlign = 'center'>
+          <Icon name='bullseye' /> Workshop
+        </Table.Cell>
+        <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
+        <Table.Cell textAlign='center'>TBA</Table.Cell>
+      </Table.Row>
+      <Table.Row>
+
+        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+        <Table.Cell collapsing textAlign = 'center'>
+          <Icon name='food' /> Dinner
+        </Table.Cell>
+        <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
+        <Table.Cell textAlign='center'>TBA</Table.Cell>
+      </Table.Row>
+      <Table.Row>
+
+        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+        <Table.Cell collapsing textAlign = 'center'>
+          <Icon name='bullseye' /> Workshop
+        </Table.Cell>
+        <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
+        <Table.Cell textAlign='center'>TBA</Table.Cell>
+      </Table.Row>
+      <Table.Row>
+
+        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+        <Table.Cell collapsing textAlign = 'center'>
+          <Icon name='bullseye' /> Workshop
+        </Table.Cell>
+        <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
+        <Table.Cell textAlign='center'>TBA</Table.Cell>
+      </Table.Row>
+
+      <Table.Row>
+        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+        <Table.Cell collapsing textAlign = 'center'>
+          <Icon name='bullseye' /> Workshop
+        </Table.Cell>
+
+        <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
+
+        <Table.Cell textAlign = 'center'>TBA</Table.Cell>
+      </Table.Row>
+    </Table.Body>
+  </Table>
+</Fade>
+
+</Segment>
+) 
+
+
+
+return( 
+  [firstTable(),  secondTable()]
+);
+
+
+}
+export default schedulePage
 
 
 
