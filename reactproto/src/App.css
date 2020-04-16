@@ -8,12 +8,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 5vh;
-  background: black;
+  min-height: 7.5vh;
+  background: #00704a;
   color: white;
-  padding-top: 0.75%;
+  padding-top: 0.5%;
   padding-bottom: 6px;
- 
+
 }
 
 .nav-links{

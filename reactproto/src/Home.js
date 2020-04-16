@@ -34,8 +34,8 @@ import Flip from 'react-reveal/Fade';
 
     <Container text id="home">
       <div  class="img-container" style={{
-        marginTop: 60,
-        marginBottom: 10,
+        marginTop: 4.5,
+        marginBottom: 1,
         padding: 0
         
       }}>
@@ -53,7 +53,7 @@ import Flip from 'react-reveal/Fade';
           style={{
             fontSize: mobile ? '2em' : '4.7em',
             fontWeight: 'normal',
-            marginBottom: 10,
+            marginBottom: 0.5,
             marginTop: mobile ? -25 : -50,
           padding: 0
           }}
