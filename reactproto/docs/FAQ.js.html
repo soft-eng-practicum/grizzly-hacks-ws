@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: FAQ.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: FAQ.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React, { Component } from 'react'
+import './App.css';
+import {
+  Header,
+  Icon,
+  Message,
+  Segment,
+} from 'semantic-ui-react'
+import Fade from 'react-reveal/Fade';
+/**
+ * HomepageLayout is a React element called by App.js.
+ * First segment centers text and identifies the page as "faq" for linking purposes.
+ * Fade top is a parent to Header and enables the text to appear from the top of the screen.
+ * Fade is parented through out the rest of message sections to have the icons and text fade/in seamlessly
+ * This page is styled with css within the .js file
+ */
+const HomepageLayout = () => (
+ 
+      &lt;Segment 
+      inverted
+      textAlign='center'
+      style={{ 
+        padding: '1 em 0em',
+      }}
+      vertical id="faq">
+  
+  {/* This is the header for FAQ */}
+  &lt;Fade top>
+    &lt;Header 
+    // Styling for FAQ
+    style={{
+      color: 'white',
+      marginTop: 80,
+      marginBottom: 10
+    }}
+    size='huge'>FREQUENTLY ASKED QUESTIONS
+    &lt;/Header>
+  &lt;/Fade>
+  {/* Ending of heading for FAQ */}
+  &lt;Fade>
+  &lt;Message style={{
+    color: 'white',
+    fontSize: 18,
+    width: 1000
+  }} compact color = 'black'>
+  
+  {/* Beginning of FAQ Section */}
+  
+  {/* FIRST FAQ QUESTION 
+      Has icon and size of icon
+  */}
+     &lt;Icon name='keyboard' size='big' />
+  {/* Heading for one of the FAQ questions */}
+      &lt;Message.Header>What is a hackathon?&lt;/Message.Header>
+      {/* Body text for the FAQ question */}
+      
+        &lt;p>
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti. 
+        L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
+        &lt;/p>
+    &lt;/Message>
+  &lt;/Fade>
+  
+  {/* Stying of FAQ question */}
+  &lt;Fade>
+    &lt;Message style={{
+    color: 'white',
+    fontSize: 18,
+    width: 1000
+  }} compact color = 'black'>
+    {/* ENDING OF FIRST FAQ QUESTION */}
+  
+  {/* BEGINNING OF SECOND FAQ QUESTION
+  
+  Has icon and size of icon
+  */}
+  &lt;Icon name='industry' size='big' />
+  {/* Heading for one of the FAQ questions */}
+      &lt;Message.Header>Do I need experience?&lt;/Message.Header>
+        {/* Body text for the FAQ question */}
+          &lt;p>
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti. 
+        L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
+         &lt;/p>
+    &lt;/Message>
+  &lt;/Fade>
+  {/* Stying of FAQ question */}
+  &lt;Fade> 
+    &lt;Message style={{
+    color: 'white',
+    fontSize: 18,
+    width: 1000
+  }} compact color = 'black'>
+    {/* ENDING OF SECOND FAQ QUESTION */}
+    
+  
+    {/* THIRD FAQ QUESTION
+    Has Icon and icon size
+    */}
+    &lt;Icon name='money' size='big' />
+    {/* Header text  */}
+      &lt;Message.Header>Does it cost anything?&lt;/Message.Header>
+      {/* FAQ QUESTION TEXT */}
+        &lt;p>
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti.
+        L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
+        &lt;/p>
+    &lt;/Message>
+    &lt;/Fade>
+  
+  
+  {/* faq question styling  */}
+  &lt;Fade>
+    &lt;Message style={{
+    color: 'white',
+    fontSize: 18,
+    width: 1000
+  }} compact color = 'black'>
+  
+    {/* END OF THIRD QUESTION */}
+  
+  {/* BEGINNING OF FOURTH QUESTION
+  
+  Icon and size
+  */}
+    &lt;Icon name='home' size='big' />
+    {/* Header text */}
+      &lt;Message.Header>Where will I stay?&lt;/Message.Header>
+      {/* FAQ text  */}
+        &lt;p>
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti.
+        L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
+        Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti.
+          L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
+        &lt;/p>
+      
+    &lt;/Message>
+    &lt;/Fade>
+  
+  {/* FAQ STYING */}
+  &lt;Fade>
+    &lt;Message style={{
+    color: 'white',
+    fontSize: 18,
+    width: 1000
+  }} compact color = 'black'>
+  
+  
+    {/* END OF FOURTH FAQ QUESTION */}
+    
+    {/* BEGINNING OF FITH FAQ QUESTION */}
+     &lt;Icon name='food' size='big' />
+     {/* Header text */}
+     &lt;Message.Header >Is food provided?&lt;/Message.Header>
+     {/* Body text */}
+      &lt;p>
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+      &lt;/p>
+    &lt;/Message>
+    &lt;/Fade>
+  
+  {/* END OF FITH FAQ QUESTION */}
+  
+  {/* BEGINNING SIXTH FAQ QUESTION */}
+  {/* FAQ STYING */}
+  &lt;Fade>
+  &lt;Message style={{
+    color: 'white',
+    fontSize: 18,
+    width: 1000
+  }} compact color = 'black'>
+    
+  &lt;Icon name='question circle outline' size='big' />
+  {/* Header text  */}
+      &lt;Message.Header>I am not in IT. Can I still go?&lt;/Message.Header>
+      {/* Body text */}
+      &lt;p>
+      Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+      &lt;/p> 
+    &lt;/Message>
+    &lt;/Fade>
+  
+   &lt;/Segment>
+)
+  
+  export default HomepageLayout;</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#aboutPage">aboutPage</a></li><li><a href="global.html#App">App</a></li><li><a href="global.html#homePage">homePage</a></li><li><a href="global.html#HomepageLayout">HomepageLayout</a></li><li><a href="global.html#isLocalhost">isLocalhost</a></li><li><a href="global.html#Nav">Nav</a></li><li><a href="global.html#noMatch">noMatch</a></li><li><a href="global.html#pageFooter">pageFooter</a></li><li><a href="global.html#sponsor">sponsor</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Fri Apr 17 2020 13:28:15 GMT-0400 (Eastern Daylight Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.css';
 import {Link} from "react-router-dom"
-
+/**
+ * Nav is a React element call by App.js. This element creates the navbar.
+ * Nav calls css elements from App.css for formating and hover features
+ */
 function Nav() {
-    // Some styling
+    /**
+     * Some styling
+     */
 const navStyle = {
     color: 'white'
 };
-
+/**
+ * The <Link> will help us make the Nav bar functional and actually useful. style= {NavStyle} is just some styling we are using the "to" is what we are linking it to
+ */
   return (
     <nav> 
 

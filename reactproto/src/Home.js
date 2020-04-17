@@ -13,8 +13,14 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
-import Flip from 'react-reveal/Fade';
 
+ /**
+  * homePage is a React Element called by App.js
+  * Centers Grizzly Hacks Text on Home page. Creates a parameter to format properly on mobile devices.
+  * Fade are parents to the images and text on this page.
+  * Fade is responsible for "Fade/in" animations
+  * @param {*} mobile 
+  */
   const homePage = ({ mobile }) => (
     <Segment 
     inverted
@@ -32,11 +38,12 @@ import Flip from 'react-reveal/Fade';
         padding: 0
         
       }}>
-        <Flip>
+        
+        <Fade>
           <a target="_blank" href="https://discord.gg/m8rKscc">
             <img height= {mobile ? "200" :'400'} width = {mobile ? "200" :'400'}  src="https://cdn.discordapp.com/attachments/644576730597818379/696143036023046245/GrizzlyHacksLogo.png" />
           </a>
-        </Flip>
+        </Fade>
       </div>
       <Fade bottom>
         <Header

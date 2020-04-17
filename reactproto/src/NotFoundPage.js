@@ -4,7 +4,10 @@ import './App.css';
 const style= {
     color: 'red'    
 };
-
+/**
+ * A React element that shows an error page when page cannot be found.
+ * @param {*} location 
+ */
 function noMatch({ location }) {
     return (
       <div className = "wrongPage" >

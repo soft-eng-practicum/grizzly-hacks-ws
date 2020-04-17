@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-// Remeber if you add a new page to import it first, if you try to use it here it wihtout importing first it won't work & will cry 
+/**
+ * Remember if you add a new page to import it first, if you try to use it here it wihtout importing first it won't work & will cry 
+ */
 import Nav from './Nav';
 import FAQ from './FAQ';
 import Schedule from './Schedule';
@@ -10,17 +12,25 @@ import Sponsor from './Sponsor';
 import About from './about';
 import Practice from './Practice';
 import NotFoundPage from './NotFoundPage';
-// We are using {} because we are importing specific things from react-router-dom
-// BrowserRouter. Using the "as" word helps us rename the name "BrowserRouter" into something shorter
-// Like we do in MySQL it's just making an alias name. In this case the alias is "Router"
-// BroswerRouter: Gives us the ablilty to handle routing in React; Move to different pages
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+/**
+ * {} is used because App.js importing specific classes from react-router-dom
+ * BrowserRouter. Using the "as" word helps us rename the name "BrowserRouter" into something shorter
+ * Like we do in MySQL it's just making an alias name. In this case the alias is "Router"
+ * BroswerRouter: Gives the developer the ablilty to handle routing in React; Allows a user to move to different pages
+ * 
+ */
 
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+/**
+ * A react element that creates the paths for Home, FAQ, Schedule, Sponsors, About, and the Footer
+ */
 function App() {
   return (
-    // Since we gave BrowserRouter an alias of "Router"
-    // We will be using that name and wrapping it around the <div> in order to use it
-    // Everything in <Router> will give us the ability to use routing
+    /**
+     * Since BrowserRouter is being used. "Router" is an alias of BrowserRouter
+     * A developer will be using that name and wrapping it around the <div> in order to use it
+     * Everything in <Router> will give us the ability to use routing
+     */ 
     <Router>
     <div className="App">
       {/* Since we want the Nav bar to load into every page, we won't put it into <Switch>. Saame goes for the Footer at the bottom */}

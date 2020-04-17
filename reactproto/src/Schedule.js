@@ -8,7 +8,13 @@ import {
 import Fade from 'react-reveal/Fade';
 
 function schedulePage (){
-
+/**
+ * A react element which is called by App.js.
+ * This element creates the 1st schedule for Grizzly Hacks events
+ * <Fade top> is the parent to Header to allow the text to appear from the top of the page.
+ * <Fade bottom> is the parent to <Table> to allow the Table to appear form the bottom of the page.
+ * The developer can change rows with TBA by replacing it with new text information
+ */
 const firstTable= () => (
     <Segment inverted >
   {/* This show the header for schedule  */}
@@ -132,7 +138,13 @@ const firstTable= () => (
   </Segment>
 ) 
 
-
+/**
+ * A react element which is called by App.js.
+ * This element creates the 2nd schedule for Grizzly Hacks events
+ * <Fade top> is the parent to Header to allow the text to appear from the top of the page.
+ * <Fade bottom> is the parent to <Table> to allow the Table to appear form the bottom of the page.
+ * The developer can change rows with TBA by replacing it with new text information
+ */
 const secondTable = () => (
   <Segment inverted >
 <Segment inverted style={{ padding: '1em 0em', margin: '-29px' }} >
