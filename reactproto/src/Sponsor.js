@@ -4,7 +4,12 @@ import {
   Segment,
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
-
+/**
+ * sponsor is a React element that is called by App.js
+ * Creates a page that contains images with links to the sponsors website
+ * Header text is parented by <Fade top> to enable animation from the top of the page
+ * Images are parented by <Fade> so they gradual appear on the page.
+ */
 const sponsor= () => (
     <Segment inverted >
  <Segment inverted style={{ padding: '5em 0em', margin: '-29px' }}vertical id="sponsors">

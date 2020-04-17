@@ -7,7 +7,13 @@ import {
   Segment,
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
-
+/**
+ * HomepageLayout is a React element called by App.js.
+ * First segment centers text and identifies the page as "faq" for linking purposes.
+ * Fade top is a parent to Header and enables the text to appear from the top of the screen.
+ * Fade is parented through out the rest of message sections to have the icons and text fade/in seamlessly
+ * This page is styled with css within the .js file
+ */
 const HomepageLayout = () => (
  
       <Segment 

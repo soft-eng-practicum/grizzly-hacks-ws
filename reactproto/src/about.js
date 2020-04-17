@@ -8,7 +8,11 @@ import {
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
 
-
+/**
+ * The aboutPage is a React Element called by App.js. 
+ * Page is seperated with segements and grids. Header contains title information and p (paragraphs) contains general "About us" information.
+ * Fade is the parent to the Headers and paragraphs so text appears from the left and the right
+ */
 const aboutPage= () => (
     <Segment inverted>
  
