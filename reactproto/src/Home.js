@@ -39,11 +39,13 @@ import Fade from 'react-reveal/Fade';
         
       }}>
         
-        <Fade>
+      <Fade>
           <a target="_blank" href="https://discord.gg/m8rKscc">
-            <img height= {mobile ? "200" :'400'} width = {mobile ? "200" :'400'}  src="https://cdn.discordapp.com/attachments/644576730597818379/696143036023046245/GrizzlyHacksLogo.png" />
+            <img height= {mobile ? "200" :'400'} 
+                 width = {mobile ? "200" :'400'}  
+                 src="https://cdn.discordapp.com/attachments/644576730597818379/696143036023046245/GrizzlyHacksLogo.png" />
           </a>
-        </Fade>
+      </Fade>
       </div>
       <Fade bottom>
         <Header
@@ -51,7 +53,7 @@ import Fade from 'react-reveal/Fade';
           content='Grizzly Hacks 2020'
           inverted
           style={{
-            fontSize: mobile ? '2em' : '4.7em',
+            fontSize: '4.7em',
             fontWeight: 'normal',
             marginBottom: 0.5,
             marginTop: mobile ? -25 : -50,

@@ -16,12 +16,13 @@ function schedulePage (){
  * The developer can change rows with TBA by replacing it with new text information
  */
 const firstTable= () => (
-    <Segment inverted >
-  {/* This show the header for schedule  */}
-  <Segment inverted style={{ padding: '1em 0em', margin: '-29px' }} vertical id="schedule">
-    <Fade top><Header style={{color: 'white', marginTop: 100, padding: '30px'
-    }}size='huge'>Schedule</Header></Fade>
-  </Segment>
+    <Segment inverted>
+      {/* This show the header for schedule  */}
+      <Segment inverted style={{ padding: '1em 0em', margin: '-29px' }} vertical id="schedule">
+        <Fade top>
+          <Header style={{color: 'white', marginTop: 0, padding: '17px'}}size='huge'> Schedule </Header>
+        </Fade>
+      </Segment>
   
   {/* BEGINNING OF FIRST TABLE FOR SCHEDULE */}
   
@@ -30,7 +31,7 @@ const firstTable= () => (
   look at Semantic UI React  */}
 
   <Fade bottom>
-    <Table celled striped inverted fixed>
+    <Table celled striped inverted fixed style={{ }}>
       <Table.Header>
         <Table.Row>
           {/* Positioning of content*/}
@@ -38,19 +39,16 @@ const firstTable= () => (
         </Table.Row>
       </Table.Header>
   
-  {/* First row of table  */}
+      {/* First row of table  */}
       <Table.Body>
         <Table.Row>
           <Table.Cell collapsing textAlign = 'center'>
             {/* This displays the icon for "checkboard" using Semantic UI React */}
-            <Icon name='clipboard check' /> TBA
-          </Table.Cell>
+            <Icon name='clipboard check' /> TBA </Table.Cell>
           {/* Shows content in table  */}
-          <Table.Cell collapsing textAlign = 'center'>TBA</Table.Cell>
+          <Table.Cell collapsing textAlign = 'center'> TBA </Table.Cell>
           {/* Shows the time in the last column of the table  */}
-          <Table.Cell collapsing textAlign='center'>
-            TBA
-          </Table.Cell>
+          <Table.Cell collapsing textAlign='center'> TBA </Table.Cell>
         </Table.Row>
         <Table.Row>
   

@@ -17,7 +17,7 @@ const aboutPage= () => (
     <Segment inverted>
  
 
- <Segment inverted style={{ padding: '8em 0em', margin: '-29px'  }} vertical id="about">
+ <Segment inverted style={{ padding: '9em 0em', margin: '-29px'  }} vertical id="about">
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
             <Grid.Column width={8}>
