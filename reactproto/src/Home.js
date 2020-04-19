@@ -71,7 +71,7 @@ import Fade from 'react-reveal/Fade';
           }}
         />
       {/* Responsible for the register button color and apperance  */}
-      <a target="_blank" href ="https://zidrees560.typeform.com/to/MalPXV">
+      <a target="_blank" href ="https://forms.gle/YTZsdiGc96FYpmPf9">
           <Button inverted color="#00704a">
               Register
           <Icon name='right arrow' />
