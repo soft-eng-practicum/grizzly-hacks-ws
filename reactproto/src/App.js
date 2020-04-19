@@ -36,8 +36,8 @@ function App() {
       {/* Since we want the Nav bar to load into every page, we won't put it into <Switch>. Saame goes for the Footer at the bottom */}
       <Nav />
         {/* 
-        We are using Switch becuase as soon it finds the route with that speific path
-        that is the only compoennt that will render out. Everything else doesn't matter
+        We are using Switch because as soon it finds the route with that specific path
+        that is the only component that will render out. Everything else doesn't matter
               */}
         <Switch>
           {/* Route: Renders out a component based on the URL

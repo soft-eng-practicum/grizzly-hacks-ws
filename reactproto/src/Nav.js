@@ -25,7 +25,7 @@ function Nav() {
                     </li>
                 </Link>
 
-                <Link className = "nav-links-indv"  to = "/FAQ" >
+                <Link className = "nav-links-indv" id ="FAQ button text" to = "/FAQ" >
                     <li> 
                         FAQ 
                     </li> 
