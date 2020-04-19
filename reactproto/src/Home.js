@@ -39,7 +39,7 @@ import Fade from 'react-reveal/Fade';
         
       }}>
         
-      <Fade>
+      <Fade class="site-container">
           <a target="_blank" href="https://discord.gg/m8rKscc">
             <img height= {mobile ? "200" :'400'} 
                  width = {mobile ? "200" :'400'}  

@@ -37,27 +37,27 @@ const HomepageLayout = () => (
     </Header>
   </Fade>
   {/* Ending of heading for FAQ */}
+
   <Fade>
-  <Message style={{
-    color: 'white',
-    fontSize: 18,
-    width: 1000
-  }} compact color = 'black'>
+    <Message style={{
+      color: 'white',
+      fontSize: 18,
+      width: 1000
+    }} compact color = 'black'>
   
-  {/* Beginning of FAQ Section */}
-  
-  {/* FIRST FAQ QUESTION 
-      Has icon and size of icon
-  */}
-     <Icon name='keyboard' size='big' />
-  {/* Heading for one of the FAQ questions */}
+      {/* Beginning of FAQ Section */}
+    
+      {/* FIRST FAQ QUESTION 
+          Has icon and size of icon
+      */}
+      <Icon name='keyboard' size='big' />
+      {/* Heading for one of the FAQ questions */}
       <Message.Header>What is a hackathon?</Message.Header>
       {/* Body text for the FAQ question */}
-      
-        <p>
+      <p>
         Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti. 
         L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo.
-        </p>
+      </p>
     </Message>
   </Fade>
   
