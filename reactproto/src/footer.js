@@ -26,11 +26,11 @@ const pageFooter= () => (
                 <Header inverted as='h4' content='Contact Us' id="contact"/>
                   <div>
                     {/* Has icons for the contact info in the footer */}
-                    <Icon link name ='discord' size='large' href="https://discord.gg/m8rKscc"/>
-                    <Icon link name='github' size='large' href="https://github.com/soft-eng-practicum/grizzly-hacks-ws"/>
-                    <Icon link name='instagram' size='large' />
-                    <Icon link name='twitter' size='large' />
-                    <Icon link name='slack' size='large' />
+                    <a target="_blank" href="https://discord.gg/m8rKscc"><Icon link name ='discord' size='large' /></a>
+                    <a target="_blank" href="https://github.com/soft-eng-practicum/grizzly-hacks-ws"><Icon link name='github' size='large'/></a>
+                    <a target="_blank" href="https://www.instagram.com/"><Icon link name='instagram' size='large' /></a>
+                    <a target="blank" href="https://twitter.com/explore"><Icon link name='twitter' size='large' /></a>
+                    <a target="_blank" href="https://slack.com/"><Icon link name='slack' size='large' /></a>
                   </div>
                </Fade>
             </Grid.Column>
