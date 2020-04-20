@@ -1,3 +1,5 @@
+/* * {border: 2px solid red} */
+/*768 width breakpoint*/
 .App {
   display: flex;
   flex-direction: column;
@@ -9,18 +11,71 @@
   padding: 0;
   background: #1B1C1D;
   background-color: #1B1C1D;
-  
+
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
+@media only screen and (max-width: 415px){
+  /*for smaller screen mobile phones*/
+  #home-header-text{
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-shrink: 1;
+    max-width: 20rem;
+    min-width: 10rem;
+  }
 }
 
-@media (max-width: 415px){
-  .site-container {
+@media only screen and (max-width: 374px){
+  #nav-links-indv{
+    /*for smaller screen mobile phones*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 20vw;
+    min-width: 18vw;
+  }
+}
+
+@media only screen and (max-width: 374px){
+  #nav-links-indv > li{
+    /*for smaller screen mobile phones*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 1.5rem;
+    min-width: 1rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 415px){
+  #grizzly-image{
+    /*for smaller screen mobile phones*/
     flex-direction: column;
-    max-width: 40rem;
+    flex-wrap:nowrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 20rem;
+    min-width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  #grizzly-image{
+    /*for small screen mobile phones*/
+    flex-direction: column;
+    flex-wrap:nowrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 23rem;
+    min-width: 21rem;
   }
 }
 
@@ -34,11 +89,10 @@
   padding: 0;
 }
 
-.grizzly-image-container#grizzly-image
-{
-  height: "400";
-  width: "400";
-  
+/*manipulates the grizzly bear image on the home page*/
+#grizzly-image{
+  width: 30vw;
+  padding-bottom: 2rem;
 }
 
 /*The container for the navbar*/
@@ -46,7 +100,8 @@
   display: flex;
   top: 0;
   position: sticky;
-  justify-content: center;
+  position: -webkit-sticky; /* Safari */
+  justify-content: space-around;
   align-items: center;
   min-height: 7.5vh;
   background: transparent;
@@ -59,8 +114,8 @@
 }
 
 /*Container for all of the "buttons"*/
-.nav-links{
-  width: 1%;
+#nav-links{
+  width: 30vw;
   color: whitesmoke;
   display: flex;
   flex-grow: 1;
@@ -69,38 +124,46 @@
   list-style: none;
   margin: 0px;
   padding: 0px;
- 
-  
   
   /* background : url('grizzly.png') no-repeat 0 0; */
   /* margin-left: 10px; */
 }
 
 /*the individual text elements on the navbar*/
-.nav-links-indv{
+#nav-links-indv{
   border: 1.94px solid whitesmoke;
   border-radius: 36px;
   padding: 3.5px 12px;
   margin: 0.5vw;
   background: rgb(59, 80, 63);
-  
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#nav-links-indv:hover{
+  border: 2.4px solid whitesmoke;
+  border-color: white;
+  color: white;
+}
+
+
+/*navbar text when you hover over it*/
+#nav-links-indv > li:hover{
+  font-weight: bold;
+  font-size: 105%;
+  color: white;
 }
 
 /*the text on the navbar itself*/
-li{
+#nav-links-indv > li{
   color: whitesmoke;
-}
-
-/*navbar text when you hover over it*/
-li:hover{
-  color: #008d5e;
-  font-weight: bold;
 }
 
 
 table, th, tr, td{
   padding: 10;
   width: 20vw;
+  z-index: 4;
 }
 
 table#table1 {
@@ -129,9 +192,16 @@ table#table1 {
  
 }
 
-.footerContent{
+/*Contains the entire footer bar*/
+#footerContent{
   padding: '9em 0em';
   margin: '-29px';
-  padding-left: 50%;
-  padding-right: 50%;
+  padding-left: 80%;
+  padding-right: 80%;
+}
+
+/*Contains the footer content and constrains it to a certain width.
+Add the line 'border: 2px solid  red;' to see the area it covers*/
+#footerContainer{
+  border: 2px solid red;
 }

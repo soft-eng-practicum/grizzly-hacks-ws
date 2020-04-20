@@ -32,23 +32,20 @@ import Fade from 'react-reveal/Fade';
 
 
     <Container text id="home">
-      <div  class="img-container" style={{
-        marginTop: 4.5,
-        marginBottom: 1,
-        padding: 0
-        
-      }}>
-        
-      <Fade class="site-container">
-          <a target="_blank" href="https://discord.gg/m8rKscc">
-            <img height= "400" 
-                 width = "400" 
-                 src="https://cdn.discordapp.com/attachments/644576730597818379/696143036023046245/GrizzlyHacksLogo.png" />
-          </a>
-      </Fade>
+      <div  id="grizzly-img-container">
+        <Fade id="site-container">
+            <a target="_blank" href="https://discord.gg/m8rKscc">
+              <img id = "grizzly-image"
+              src="https://cdn.discordapp.com/attachments/644576730597818379/696143036023046245/GrizzlyHacksLogo.png" 
+              />
+            </a>
+        </Fade>
       </div>
+       
       <Fade bottom>
+        {/* Grizzly Hacks 2020 Text */}
         <Header
+          id = "home-header-text"
           as='h1'
           content='Grizzly Hacks 2020'
           inverted
@@ -57,9 +54,10 @@ import Fade from 'react-reveal/Fade';
             fontWeight: 'normal',
             marginBottom: 0.5,
             marginTop: mobile ? -25 : -50,
-          padding: 0
+            padding: 0
           }}
         />
+        {/* Register Now! */}
         <Header
           as='h2'
           content='Register now!'
@@ -73,7 +71,7 @@ import Fade from 'react-reveal/Fade';
           }}
         />
       {/* Responsible for the register button color and apperance  */}
-      <a class ="GrizzlyLogo" target="_blank" href ="https://forms.gle/Ek1cGCQL5kVPo3dH8">
+      <a class ="RegisterButton" target="_blank" href ="https://forms.gle/Ek1cGCQL5kVPo3dH8">
           <Button inverted color="#00704a">
               Register
           <Icon name='right arrow' />

@@ -16,36 +16,36 @@ function Nav() {
     return (
         <nav id = "navbar"> 
 
-            <ul className = "nav-links">
+            <ul id = "nav-links">
                     {/* This <Link> will help us make the Nav bar functional and actually useful. 
                     style= {NavStyle} is just some styling we are using the "to" is what we are linking it to.
                     */}
-                <Link className = "nav-links-indv" to = "/Home">
+                <Link id = "nav-links-indv" to = "/Home">
                     <li>
                         <i class="home"></i>
-                        home
+                        Home
                     </li>
                 </Link>
 
-                <Link className = "nav-links-indv" id ="FAQ button text" to = "/FAQ" >
+                <Link id = "nav-links-indv" to = "/FAQ" >
                     <li> 
                         FAQ 
                     </li> 
                 </Link>
 
-                <Link className = "nav-links-indv" to ="/schedule">
+                <Link id = "nav-links-indv" to ="/schedule">
                     <li>
                         Schedule
                     </li>
                 </Link>
 
-                <Link  className = "nav-links-indv"  to = "/sponsor">
+                <Link  id = "nav-links-indv"  to = "/sponsor">
                     <li>
                         Sponsors
                     </li>
                  </Link>
 
-                <Link className = "nav-links-indv" to = "/about">
+                <Link id = "nav-links-indv" to = "/about">
                     <li>
                         About
                     </li>

@@ -16,9 +16,8 @@ import Fade from 'react-reveal/Fade';
  * Developer can edit the link by changing the href for the icon.
  */
 const pageFooter= () => (
-  <Segment inverted >
-    <Segment  inverted vertical>
-      <Container class="footerContent">
+  <Segment id="footerContent" inverted>
+      <Container id = "footerContainer">
         <Grid divided inverted stackable>
           <Grid.Row>
             <Grid.Column width={3}>
@@ -46,7 +45,6 @@ const pageFooter= () => (
           </Grid.Row>
         </Grid>
       </Container>
-    </Segment>
   </Segment>
 )
 
