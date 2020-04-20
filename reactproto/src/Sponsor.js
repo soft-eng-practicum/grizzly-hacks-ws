@@ -12,7 +12,7 @@ import Fade from 'react-reveal/Fade';
  */
 const sponsor= () => (
     <Segment inverted >
-        <Segment inverted style={{ padding: '2em 0em', margin: '-29px' }}vertical id="sponsors">
+        <Segment inverted style={{ padding: '2em 0em', margin: '-29px' }}vertical id="sponsors" class="zoom">
               {/* Header text */}
               <Fade top>
                 <Header style={{color: 'white', marginTop: 0
