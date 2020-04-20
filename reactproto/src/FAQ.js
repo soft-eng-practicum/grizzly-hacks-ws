@@ -53,6 +53,7 @@ const HomepageLayout = () => (
       <Icon name='keyboard' size='big' />
       {/* Heading for one of the FAQ questions */}
       <Message.Header>What is a hackathon?</Message.Header>
+
       {/* Body text for the FAQ question */}
       <p>
         Nessuno può sfuggire dal destino scelto. Rimane il risultato che voi sarete distrutti. 
@@ -61,7 +62,7 @@ const HomepageLayout = () => (
     </Message>
   </Fade>
   
-  {/* Stying of FAQ question */}
+  {/* Styling of FAQ question */}
   <Fade>
     <Message style={{
     color: 'white',

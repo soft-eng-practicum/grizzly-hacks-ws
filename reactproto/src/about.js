@@ -39,13 +39,13 @@ const aboutPage= () => (
               </Fade>
               
               {/* Header text */}
-              <Fade right>
+              <Fade left>
                 <Header inverted as='h3' style={{ fontSize: '2em' }}>
                   More info
                 </Header>
               </Fade>
               {/* Dummy Text */}
-              <Fade left>
+              <Fade right>
                 <p style={{ fontSize: '1.33em' }}>
                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley

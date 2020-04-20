@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Link} from "react-router-dom"
 
+
 /**
  * Nav is a React element called by App.js. This element creates the navbar.
  * Nav calls css elements from App.css for formating and hover features
@@ -13,7 +14,7 @@ function Nav() {
      * styling we are using the "to" is what we are linking it to
      */
     return (
-        <nav> 
+        <nav id = "navbar"> 
 
             <ul className = "nav-links">
                     {/* This <Link> will help us make the Nav bar functional and actually useful. 
@@ -21,7 +22,8 @@ function Nav() {
                     */}
                 <Link className = "nav-links-indv" to = "/Home">
                     <li>
-                        Home
+                        <i class="home"></i>
+                        home
                     </li>
                 </Link>
 

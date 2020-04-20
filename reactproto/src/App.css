@@ -1,7 +1,15 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
+  background: #1B1C1D;
+  background-color: #1B1C1D;
+  
 }
 
 .container {
@@ -9,9 +17,9 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 415px){
+@media (max-width: 415px){
   .site-container {
-    flex-direction: row;
+    flex-direction: column;
     max-width: 40rem;
   }
 }
@@ -20,64 +28,110 @@
   flex: 1;
 }
 
+.grizzly-image-container{
+  margin-top: 4.5;
+  margin-bottom: 1;
+  padding: 0;
+}
 
-nav {
+.grizzly-image-container#grizzly-image
+{
+  height: "400";
+  width: "400";
+  
+}
+
+/*The container for the navbar*/
+#navbar {
   display: flex;
+  top: 0;
+  position: sticky;
   justify-content: center;
   align-items: center;
   min-height: 7.5vh;
-  background: #00704a;
+  background: transparent;
   padding-top: 0.5%;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 50%;
+  padding-right: 50%;
   padding-bottom: 6px;
   font-weight: bold;
+  z-index: 5;
 }
 
+/*Container for all of the "buttons"*/
 .nav-links{
   width: 1%;
   color: whitesmoke;
   display: flex;
   flex-grow: 1;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   list-style: none;
   margin: 0px;
   padding: 0px;
-  z-index: 5;
+ 
+  
+  
   /* background : url('grizzly.png') no-repeat 0 0; */
   /* margin-left: 10px; */
 }
 
+/*the individual text elements on the navbar*/
 .nav-links-indv{
   border: 1.94px solid whitesmoke;
   border-radius: 36px;
   padding: 3.5px 12px;
-  background: rgb(59, 80, 63)
+  margin: 0.5vw;
+  background: rgb(59, 80, 63);
+  
 }
 
-li {
+/*the text on the navbar itself*/
+li{
   color: whitesmoke;
 }
 
+/*navbar text when you hover over it*/
 li:hover{
   color: #008d5e;
   font-weight: bold;
 }
 
 
-
-
-.dummy {
-  color: white;
-
-  padding: 100px;
-  margin: 200px;
+table, th, tr, td{
+  padding: 10;
+  width: 20vw;
 }
+
+table#table1 {
+  align-self: center;
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%
+}
+
+#header-text-container{
+  padding: '1em 0em';
+  margin: '-29px';
+}
+
+#schedule-header-text{
+  color: white; 
+  margin-top: 0; 
+  padding: '17px';
+}
+
 
 .wrongPage{
   padding: 100px;
   margin: 300px;
   color: red;
  
+}
+
+.footerContent{
+  padding: '9em 0em';
+  margin: '-29px';
+  padding-left: 50%;
+  padding-right: 50%;
 }

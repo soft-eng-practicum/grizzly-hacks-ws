@@ -41,8 +41,8 @@ import Fade from 'react-reveal/Fade';
         
       <Fade class="site-container">
           <a target="_blank" href="https://discord.gg/m8rKscc">
-            <img height= {mobile ? "200" :'400'} 
-                 width = {mobile ? "200" :'400'}  
+            <img height= "400" 
+                 width = "400" 
                  src="https://cdn.discordapp.com/attachments/644576730597818379/696143036023046245/GrizzlyHacksLogo.png" />
           </a>
       </Fade>
@@ -73,7 +73,7 @@ import Fade from 'react-reveal/Fade';
           }}
         />
       {/* Responsible for the register button color and apperance  */}
-      <a target="_blank" href ="https://forms.gle/Ek1cGCQL5kVPo3dH8">
+      <a class ="GrizzlyLogo" target="_blank" href ="https://forms.gle/Ek1cGCQL5kVPo3dH8">
           <Button inverted color="#00704a">
               Register
           <Icon name='right arrow' />
