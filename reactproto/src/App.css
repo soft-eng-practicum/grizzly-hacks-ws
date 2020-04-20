@@ -203,5 +203,5 @@ table#table1 {
 /*Contains the footer content and constrains it to a certain width.
 Add the line 'border: 2px solid  red;' to see the area it covers*/
 #footerContainer{
-  border: 2px solid red;
+  border: 2px solid #1B1C1D;
 }
