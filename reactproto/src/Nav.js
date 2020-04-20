@@ -20,12 +20,6 @@ function Nav() {
                     {/* This <Link> will help us make the Nav bar functional and actually useful. 
                     style= {NavStyle} is just some styling we are using the "to" is what we are linking it to.
                     */}
-                <Link id = "nav-links-indv" to = "/Home">
-                    <li>
-                        <i class="home"></i>
-                        Home
-                    </li>
-                </Link>
 
                 <Link id = "nav-links-indv" to = "/FAQ" >
                     <li> 
@@ -36,6 +30,13 @@ function Nav() {
                 <Link id = "nav-links-indv" to ="/schedule">
                     <li>
                         Schedule
+                    </li>
+                </Link>
+
+                <Link id = "nav-links-indv" to = "/Home">
+                    <li>
+                        <i class="home"></i>
+                        Home
                     </li>
                 </Link>
 

@@ -1,11 +1,6 @@
 // import React from 'react';
 import React, { Component } from 'react'
 import './App.css';
-import Switch from '@material-ui/core/Switch';
-import Paper from '@material-ui/core/Paper';
-import Slide from '@material-ui/core/Slide';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import { makeStyles } from '@material-ui/core/styles';
 
 function messingAround(){
 

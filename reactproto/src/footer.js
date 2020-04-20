@@ -5,7 +5,6 @@ import {
   Header,
   Icon,
   Segment,
-  Sidebar,
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
 /**

@@ -6,11 +6,7 @@ import {
   Container,
   Header,
   Icon,
-  Menu,
-  Responsive,
   Segment,
-  Sidebar,
-  Visibility,
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
 
@@ -79,10 +75,6 @@ import Fade from 'react-reveal/Fade';
         </a>
       </Fade>
     </Container>
-
-        
-
-
 
     </Segment>
   )

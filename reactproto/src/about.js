@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 import {
   Grid,
   Header,
-  Image,
   Segment,
-  Reveal
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
 
