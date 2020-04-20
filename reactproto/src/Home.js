@@ -32,7 +32,7 @@ import Fade from 'react-reveal/Fade';
 
 
     <Container text id="home">
-      <div  id="grizzly-img-container">
+      <div  id="grizzly-img-container" class="zoom">
         <Fade id="site-container">
             <a target="_blank" href="https://discord.gg/m8rKscc">
               <img id = "grizzly-image"
