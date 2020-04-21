@@ -30,7 +30,7 @@ const pageFooter= () => (
                     <a target="_blank" href="https://www.instagram.com/"><Icon link name='instagram' size='large' /></a>
                     <a target="blank" href="https://twitter.com/explore"><Icon link name='twitter' size='large' /></a>
                     <a target="_blank" href="https://slack.com/"><Icon link name='slack' size='large' /></a>
-                    <a target ="_blank" href="./Users/josiah/OneDrive/Documents/SoftDevII/grizzly-hacks-ws/reactproto/docs/index.html"><Icon link name= 'info circle' size='large' /></a>
+                    {/* <a target ="_blank" href="./Users/josiah/OneDrive/Documents/SoftDevII/grizzly-hacks-ws/reactproto/docs/index.html"><Icon link name= 'info circle' size='large' /></a> */}
                   </div>
                </Fade>
             </Grid.Column>
@@ -38,7 +38,7 @@ const pageFooter= () => (
                   {/* Footer text could be changed */}
                   <Fade>
                     <p>
-                      Made with 💚 by Exodia 
+                      Made with 💚 by Exodia  
                     </p>
                 </Fade>
               </Grid.Column>

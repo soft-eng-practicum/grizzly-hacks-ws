@@ -20,7 +20,7 @@ function schedulePage (){
 const firstTable= () => (
     <Segment inverted>
       {/* This show the header for schedule  */}
-      <Segment inverted vertical id="header-text-container">
+      <Segment inverted vertical id="schedule-header-text-container">
         <Fade top>
           <Header id = "schedule-header-text" size="huge"> Schedule </Header>
         </Fade>
