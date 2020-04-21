@@ -37,7 +37,7 @@ const aboutPage= () => (
                   These are the individuals who seek to bring hack-a-thons to Georgia Gwinnett College!
                   </p>
                   <br/>
-                  <h3>Vi "Jimmy" Nguyen the Shit Head President</h3>
+                  <h3>Vi "Jimmy" Nguyen the President</h3>
                   <a target="_blank" href="https://www.linkedin.com/in/vinguyen-ggc/"><img src="President_Vi_Nguyen.png" id="vi-image" class="zoom2" /></a>
                   <br/>
                   <h3>Phillip Chazares the Secretary</h3>
