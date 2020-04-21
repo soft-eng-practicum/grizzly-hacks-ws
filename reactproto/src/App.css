@@ -114,7 +114,7 @@ div{
 }
 
 /*Individual Nav Link Text Media Queries*/
-/*Screen Size Widths up to 768px*/
+/*Screen Size Widths up to 375px*/
 @media only screen and (min-width: 375px){
   #nav-links-indv > li{
     /*for smaller screen mobile phones*/
@@ -138,6 +138,51 @@ div{
 }
 
 /*Individual Nav Link Media Queries*/
+/*Screen Size Widths up to 768px*/
+@media only screen and (min-width: 768px){
+  #nav-links-indv{
+    /*for smaller screen mobile phones*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 15vw;
+    min-width: 13vw;
+    border: 1.94px solid whitesmoke;
+    border-radius: 10px;
+    padding: 0.5vw 0.5vw;
+  
+  }
+}
+
+/*Individual Nav Link Text Media Queries*/
+/*Screen Size Widths up to 768px*/
+@media only screen and (min-width: 768px){
+  #nav-links-indv > li{
+    /*for smaller screen mobile phones*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 5rem;
+    min-width: 1rem;
+    font-size: 2.1vw;
+  }
+
+  /*Not sure if this part is actually doing anything, but I'll leave it*/
+  #nav-links-indv > li:hover
+  {
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+
+
+/*Individual Nav Link Media Queries*/
 /*Screen Size Widths up to 1024px*/
 @media only screen and (min-width: 1024px){
   #nav-links-indv{
@@ -147,8 +192,8 @@ div{
     justify-content: space-around;
     flex-shrink: 1;
     flex-grow: 1;
-    max-width: 11vw;
-    min-width: 8vw;
+    max-width: 13vw;
+    min-width: 9vw;
     border: 1.94px solid whitesmoke;
     border-radius: 10px;
     padding: 0.5vw 0.5vw;
@@ -166,9 +211,9 @@ div{
     justify-content: space-around;
     flex-shrink: 1;
     flex-grow: 1;
-    max-width: 0.6rem;
-    min-width: 0.2rem;
-    font-size: 1.25vw;
+    max-width: 5rem;
+    min-width: 1rem;
+    font-size: 1.3vw;
   }
 
   /*Not sure if this part is actually doing anything, but I'll leave it*/
@@ -222,6 +267,7 @@ div{
     color: white;
   }
 }
+
 /*Grizzly Image Media Queries*/
 /*Screen Size Widths up to 415px*/
 @media only screen and (max-width: 415px){
@@ -243,6 +289,8 @@ div{
     min-width: 21rem;
   }
 }
+
+
 
 .site-container > * {
   flex: 1;
