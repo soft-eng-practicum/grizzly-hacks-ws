@@ -24,6 +24,16 @@ div{
   transition: transform .1s;
   margin: 0 auto;
 }
+.zoom2{
+  padding: 10px;
+  transition: transform .1s;
+  margin: 0 auto;
+}
+.zoom2:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
 
 .zoom:hover {
   -ms-transform: scale(1.1); /* IE 9 */
@@ -132,7 +142,10 @@ div{
   padding: 0;
   
 }
-
+#vi-image{
+  width: 20vw;
+  padding-bottom: 2rem;
+}
 /*manipulates the grizzly bear image on the home page*/
 #grizzly-image{
   width: 30vw;

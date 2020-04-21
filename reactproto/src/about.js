@@ -33,10 +33,16 @@ const aboutPage= () => (
                 {/* Dummy text */}
                 <Fade right>
                   <p style={{ fontSize: '1.33em' }}>
-                  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-                  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                  of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  Here are the faces of the Grizzly Hacks Cabinet.
+                  These are the individuals who seek to bring hack-a-thons to Georgia Gwinnett College!
                   </p>
+                  <br/>
+                  <h3>Vi "Jimmy" Nguyen the President</h3>
+                  <a target="_blank" href="https://www.linkedin.com/in/vinguyen-ggc/"><img src="President_Vi_Nguyen.png" id="vi-image" class="zoom2" /></a>
+                  <br/>
+                  <h3>Phillip Chazares the Secretary</h3>
+                  <a target="_blank" href="https://www.linkedin.com/in/phillip-chazares/"><img src="Secretary_Phillip_Chazares.jpg" id="vi-image" class="zoom2"/></a>
+                  <br/>
                 </Fade>
                 
                 {/* Header text */}
@@ -48,9 +54,8 @@ const aboutPage= () => (
                 {/* Dummy Text */}
                 <Fade right>
                   <p style={{ fontSize: '1.33em' }}>
-                  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                  of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  If you are not looking to become a hacker and instead a sponsor please contact our Grizzly Hacks cabinet for
+                  more details. Thank you!
                   </p>
                 </Fade>
 
