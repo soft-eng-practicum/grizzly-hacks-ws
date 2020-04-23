@@ -19,14 +19,14 @@ const aboutPage= () => (
               {{ padding: '9em 0em', 
                 margin: '-29px'  }} 
                 vertical >
-          <Grid container stackable verticalAlign='middle'>
+          <Grid container centered stackable verticalAlign='middle'>
             <Grid.Row>
               <Grid.Column width={8}>
     
               
                 {/* Header text */}
                 <Fade left>
-                  <Header inverted as='h3' style={{ fontSize: '2em' }}>
+                  <Header inverted as='h3' style={{ fontSize: '2em'}}>
                   About us
                   </Header>
                 </Fade>
@@ -39,6 +39,8 @@ const aboutPage= () => (
                   <br/>
                   <h3>Vi "Jimmy" Nguyen the President</h3>
                   <a target="_blank" href="https://www.linkedin.com/in/vinguyen-ggc/"><img src="President_Vi_Nguyen.png" id="vi-image" class="zoom2" /></a>
+                  <br/>
+                  <br/>
                   <br/>
                   <h3>Phillip Chazares the Secretary</h3>
                   <a target="_blank" href="https://www.linkedin.com/in/phillip-chazares/"><img src="Secretary_Phillip_Chazares.jpg" id="vi-image" class="zoom2"/></a>

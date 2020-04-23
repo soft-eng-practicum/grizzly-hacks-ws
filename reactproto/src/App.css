@@ -193,7 +193,7 @@ div{
     flex-shrink: 1;
     flex-grow: 1;
     max-width: 13vw;
-    min-width: 9vw;
+    min-width: 9  vw;
     border: 1.94px solid whitesmoke;
     border-radius: 10px;
     padding: 0.5vw 0.5vw;
@@ -418,6 +418,16 @@ table#table1 {
 .wrongPage{
   margin: 300px;
   color: red;
+}
+
+#about > #about-us-header{
+  text-align: center;
+  font-size: 2em;
+}
+
+#about > #about-us-text{
+  text-align: ceneter;
+  font-size: 1.33em;
 }
 
 /*Contains the entire footer bar*/
