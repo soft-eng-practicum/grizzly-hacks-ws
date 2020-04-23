@@ -47,6 +47,9 @@ const aboutPage= () => (
                   <br/>
                 </Fade>
                 
+                <br/>
+                <br/>
+                <br/>
                 {/* Header text */}
                 <Fade left>
                   <Header inverted as='h3' style={{ fontSize: '2em' }}>
