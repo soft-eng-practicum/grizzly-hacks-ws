@@ -12,6 +12,7 @@
 4. ## Semantic-UI-React ##
 5. ## Firebase ##
 6. ## JS Doc ##
+7. ## Jira ##
 
 ### [License](https://creativecommons.org/licenses/by-nc/4.0/) 
 
