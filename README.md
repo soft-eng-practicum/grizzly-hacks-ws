@@ -11,6 +11,7 @@
 3. ## HTML/CSS ##
 4. ## Semantic-UI-React ##
 5. ## Firebase ##
+6. ## JS Doc ##
 
 ### [License](https://creativecommons.org/licenses/by-nc/4.0/) 
 
