@@ -8,35 +8,35 @@
   height: 100%;
   width: 100%;
   margin: 0;
-  background: #1B1C1D;
-  background-color: #1B1C1D;
+  background: #1b1c1d;
+  background-color: #1b1c1d;
 }
 
-html, body{
-  background: #1B1C1D;
-  margin:0;
-  
+html,
+body {
+  background: #1b1c1d;
+  margin: 0;
 }
 
-div{
-  background: #1B1C1D;
+div {
+  background: #1b1c1d;
 }
 .zoom {
-  transition: transform .1s;
+  transition: transform 0.1s;
   margin: 0 auto;
 }
 
 .zoom:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 /*Grizzly Hacks 2020 Text Media Queries*/
 /*Screen Size Widths up to 415px*/
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 415px) {
   /*for smaller screen mobile phones*/
-  #home-header-text{
+  #home-header-text {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 30rem;
@@ -45,9 +45,9 @@ div{
 }
 
 /*Screen Size Widths up to 415px*/
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 415px) {
   /*for smaller screen mobile phones*/
-  #home-registernowx-text{
+  #home-registernowx-text {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 30rem;
@@ -57,25 +57,24 @@ div{
 
 /*Individual Nav Link Media Queries*/
 /*Screen Size Widths up to 374px*/
-@media only screen and (max-width: 374px){
-  #nav-links-indv{
+@media only screen and (max-width: 374px) {
+  #nav-links-indv {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    max-width: 20vw;  
+    max-width: 20vw;
     min-width: 18vw;
     border: 1.94px solid whitesmoke;
     border-radius: 10px;
     padding: 0.5vw 0.5vw;
-  
   }
 }
 
 /*Individual Nav Link Text Media Queries*/
 /*Screen Size Widths up to 374px*/
-@media only screen and (max-width: 374px){
-  #nav-links-indv > li{
+@media only screen and (max-width: 374px) {
+  #nav-links-indv > li {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -86,8 +85,7 @@ div{
   }
 
   /*Not sure if this part is actually doing anything, but I'll leave it*/
-  #nav-links-indv > li:hover
-  {
+  #nav-links-indv > li:hover {
     font-size: 200%;
     font-weight: bold;
     color: white;
@@ -96,8 +94,8 @@ div{
 
 /*Individual Nav Link Media Queries*/
 /*Screen Size Widths up to 768px*/
-@media only screen and (min-width: 375px){
-  #nav-links-indv{
+@media only screen and (min-width: 375px) {
+  #nav-links-indv {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -109,14 +107,13 @@ div{
     border: 1.94px solid whitesmoke;
     border-radius: 10px;
     padding: 0.5vw 0.5vw;
-  
   }
 }
 
 /*Individual Nav Link Text Media Queries*/
 /*Screen Size Widths up to 375px*/
-@media only screen and (min-width: 375px){
-  #nav-links-indv > li{
+@media only screen and (min-width: 375px) {
+  #nav-links-indv > li {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -129,8 +126,7 @@ div{
   }
 
   /*Not sure if this part is actually doing anything, but I'll leave it*/
-  #nav-links-indv > li:hover
-  {
+  #nav-links-indv > li:hover {
     font-size: 200%;
     font-weight: bold;
     color: white;
@@ -139,8 +135,8 @@ div{
 
 /*Individual Nav Link Media Queries*/
 /*Screen Size Widths up to 768px*/
-@media only screen and (min-width: 768px){
-  #nav-links-indv{
+@media only screen and (min-width: 768px) {
+  #nav-links-indv {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -152,14 +148,13 @@ div{
     border: 1.94px solid whitesmoke;
     border-radius: 10px;
     padding: 0.5vw 0.5vw;
-  
   }
 }
 
 /*Individual Nav Link Text Media Queries*/
 /*Screen Size Widths up to 768px*/
-@media only screen and (min-width: 768px){
-  #nav-links-indv > li{
+@media only screen and (min-width: 768px) {
+  #nav-links-indv > li {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -172,20 +167,17 @@ div{
   }
 
   /*Not sure if this part is actually doing anything, but I'll leave it*/
-  #nav-links-indv > li:hover
-  {
+  #nav-links-indv > li:hover {
     font-size: 200%;
     font-weight: bold;
     color: white;
   }
 }
 
-
-
 /*Individual Nav Link Media Queries*/
 /*Screen Size Widths up to 1024px*/
-@media only screen and (min-width: 1024px){
-  #nav-links-indv{
+@media only screen and (min-width: 1024px) {
+  #nav-links-indv {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -193,18 +185,17 @@ div{
     flex-shrink: 1;
     flex-grow: 1;
     max-width: 13vw;
-    min-width: 9  vw;
+    min-width: 9 vw;
     border: 1.94px solid whitesmoke;
     border-radius: 10px;
     padding: 0.5vw 0.5vw;
-  
   }
 }
 
 /*Individual Nav Link Text Media Queries*/
 /*Screen Size Widths up to 1024px*/
-@media only screen and (min-width: 1024px){
-  #nav-links-indv > li{
+@media only screen and (min-width: 1024px) {
+  #nav-links-indv > li {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -217,8 +208,7 @@ div{
   }
 
   /*Not sure if this part is actually doing anything, but I'll leave it*/
-  #nav-links-indv > li:hover
-  {
+  #nav-links-indv > li:hover {
     font-size: 200%;
     font-weight: bold;
     color: white;
@@ -227,8 +217,8 @@ div{
 
 /*Individual Nav Link Media Queries*/
 /*Screen Size Widths up to 1080px*/
-@media only screen and (min-width: 1080px){
-  #nav-links-indv{
+@media only screen and (min-width: 1080px) {
+  #nav-links-indv {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -240,15 +230,13 @@ div{
     border: 1.94px solid whitesmoke;
     border-radius: 10px;
     padding: 0.5vw 0.5vw;
-  
   }
 }
 
 /*Individual Nav Link Text Media Queries*/
 /*Screen Size Widths up to 1080px*/
-@media only screen and (min-width: 1080px)
-{
-  #nav-links-indv > li{
+@media only screen and (min-width: 1080px) {
+  #nav-links-indv > li {
     /*for smaller screen mobile phones*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -260,8 +248,7 @@ div{
     font-size: 1.25vw;
   }
   /*Not sure if this part is actually doing anything, but I'll leave it*/
-  #nav-links-indv > li:hover
-  {
+  #nav-links-indv > li:hover {
     font-size: 200%;
     font-weight: bold;
     color: white;
@@ -270,43 +257,39 @@ div{
 
 /*Grizzly Image Media Queries*/
 /*Screen Size Widths up to 415px*/
-@media only screen and (max-width: 415px){
-  #grizzly-image{
+@media only screen and (max-width: 415px) {
+  #grizzly-image {
     /*for smaller screen mobile phones*/
     flex-direction: column;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     max-width: 20rem;
     min-width: 18rem;
   }
 }
 /*Screen Size Widths up to 768px*/
-@media only screen and (max-width: 768px){
-  #grizzly-image{
+@media only screen and (max-width: 768px) {
+  #grizzly-image {
     /*for small screen mobile phones*/
     flex-direction: column;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     max-width: 23rem;
     min-width: 21rem;
   }
 }
 
-
-
 .site-container > * {
   flex: 1;
 }
 
-.grizzly-image-container{
+.grizzly-image-container {
   margin-top: 3vh;
   margin-bottom: 0;
   padding: 0;
-  
 }
 
 /*manipulates the grizzly bear image on the home page*/
-#grizzly-image{
+#grizzly-image {
   width: 30vw;
-
 }
 
 /*The container for the navbar*/
@@ -328,7 +311,7 @@ div{
 }
 
 /*Container for all of the "buttons"*/
-#nav-links{
+#nav-links {
   width: 30vw;
   color: whitesmoke;
   display: flex;
@@ -338,13 +321,13 @@ div{
   list-style: none;
   margin: 0px;
   padding: 0px;
-  
+
   /* background : url('grizzly.png') no-repeat 0 0; */
   /* margin-left: 10px; */
 }
 
 /*the individual text elements on the navbar*/
-#nav-links-indv{
+#nav-links-indv {
   display: flex;
   border: 1.94px solid whitesmoke;
   border-radius: 36px;
@@ -359,90 +342,90 @@ div{
   text-align: center;
 }
 
-#nav-links-indv:hover{
+#nav-links-indv:hover {
   border: 2.4px solid whitesmoke;
   border-color: white;
   color: white;
 }
 
-
 /*navbar text when you hover over it*/
-#nav-links-indv > li:hover{
+#nav-links-indv > li:hover {
   font-weight: bold;
   font-size: 105%;
   color: white;
 }
 
 /*the text on the navbar itself*/
-#nav-links-indv > li{
+#nav-links-indv > li {
   color: whitesmoke;
-
 }
 
-
-table, th, tr, td{
+table,
+th,
+tr,
+td {
   width: 20vw;
   z-index: 4;
 }
 
 table#table1 {
   align-self: center;
-  width:70%; 
-  margin-left:15%; 
-  margin-right:15%
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /*Grizzly Hacks 2020 header text*/
-#home-header-text{
+#home-header-text {
   font-size: 6vw;
-  font-weight: 'normal';
+  font-weight: "normal";
   margin-top: 0;
 }
 
-#home-registernow-text{
-  font-size: '1.7em';
-  font-weight: 'normal';
+#home-registernow-text {
+  font-size: "1.7em";
+  font-weight: "normal";
 }
 
-#schedule-header-text-container{
-  padding: '0em 0em';
-  margin: '-29px';
+#schedule-header-text-container {
+  padding: "0em 0em";
+  margin: "-29px";
 }
 
-#schedule-header-text{
-  color: white; 
-  margin-top: 0; 
-  padding: '17px';
+#schedule-header-text {
+  color: white;
+  margin-top: 0;
+  padding: "17px";
 }
 
-.wrongPage{
+.wrongPage {
   margin: 300px;
   color: red;
 }
 
-#about > #about-us-header{
+#about > #about-us-header {
   text-align: center;
   font-size: 2em;
 }
 
-#about > #about-us-text{
+#about > #about-us-text {
   text-align: ceneter;
   font-size: 1.33em;
 }
 
 /*Contains the entire footer bar*/
-#footerContent{
-  margin: '-29px';
+#footerContent {
+  margin: "-29px";
   /* padding-left: 80%;
   padding-right: 80%; */
 }
 
 /*Contains the footer content and constrains it to a certain width.
 Add the line 'border: 2px solid  red;' to see the area it covers*/
-#footerContainer{
-  border: 2px solid #1B1C1D;
+#footerContainer {
+  border: 2px solid #1b1c1d;
 }
 
-a{
-  color: #14A10D;
+a {
+  color: #14a10d;
 }
