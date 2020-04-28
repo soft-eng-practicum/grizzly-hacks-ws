@@ -1,16 +1,24 @@
 /**
- * This optional code is used to register a service worker.
- * register() is not called by default.
- * This lets the app load faster on subsequent visits in production, and gives
- * it offline capabilities. However, it also means that developers (and users)
- * will only see deployed updates on subsequent visits to a page, after all the
- * existing tabs open on the page have been closed, since previously cached
- * resources are updated in the background.
- * 
- * To learn more about the benefits of this model and instructions on how to
- * opt-in, read https://bit.ly/CRA-PWA
+ *User Instructions:
+ *
+ *Page Navigation:
+ *
+ *You will always be taken the the Grizzly Hacks homepage first. Here you can register for a Hackathon. Click on the home button in the navbar to be 
+ *redirected to this page.
+ *Click the Sponsor button in the navbar to visit the sponsor page. Click on the icons to be sent to our sponsors career pages
+ *Click the About button in the navbar to visit the About page to learn about the Gizzly Hacks staff.
+ *Click the FAQ button in the navbar to visit the FAQ page to learn about hackathons in general.
+ *
+ *Registration instructions:
+ *
+ *Click 'Register' on the home page of the Grizzly Hacks Website. 
+ *You will then be taken to a goodgle docs to register for the Hackathon. 
+ *After you are finished signing up an admin will email you to let you know if you were accepted or not.
+ *
+ *Our repository:
+ *https://github.com/soft-eng-practicum/grizzly-hacks-ws/tree/master/reactproto/docs
+ *
  */
-
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
     /**

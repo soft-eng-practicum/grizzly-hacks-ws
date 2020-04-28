@@ -30,9 +30,7 @@
 import {
   Grid,
   Header,
-  Image,
   Segment,
-  Reveal
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
 
@@ -42,52 +40,65 @@ import Fade from 'react-reveal/Fade';
  * Fade is the parent to the Headers and paragraphs so text appears from the left and the right
  */
 const aboutPage= () => (
-    &lt;Segment inverted>
- 
 
- &lt;Segment inverted style={{ padding: '8em 0em', margin: '-29px'  }} vertical id="about">
-        &lt;Grid container stackable verticalAlign='middle'>
-          &lt;Grid.Row>
-            &lt;Grid.Column width={8}>
-  
-            
-              {/* Header text */}
-              &lt;Fade left>
-                &lt;Header inverted as='h3' style={{ fontSize: '2em' }}>
-                About us
-                &lt;/Header>
-              &lt;/Fade>
-              {/* Dummy text */}
-              &lt;Fade right>
-                &lt;p style={{ fontSize: '1.33em' }}>
-                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                &lt;/p>
-              &lt;/Fade>
+  &lt;Segment inverted>
+    
+    &lt;Segment id="about" inverted style=
+              {{ padding: '9em 0em', 
+                margin: '-29px'  }} 
+                vertical >
+          &lt;Grid container centered stackable verticalAlign='middle'>
+            &lt;Grid.Row>
+              &lt;Grid.Column width={8}>
+    
               
-              {/* Header text */}
-              &lt;Fade right>
-                &lt;Header inverted as='h3' style={{ fontSize: '2em' }}>
-                  More info
-                &lt;/Header>
-              &lt;/Fade>
-              {/* Dummy Text */}
-              &lt;Fade left>
-                &lt;p style={{ fontSize: '1.33em' }}>
-                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                &lt;/p>
-              &lt;/Fade>
+                {/* Header text */}
+                &lt;Fade left>
+                  &lt;Header inverted as='h3' style={{ fontSize: '2em'}}>
+                  About us
+                  &lt;/Header>
+                &lt;/Fade>
+                {/* Dummy text */}
+                &lt;Fade right>
+                  &lt;p style={{ fontSize: '1.33em' }}>
+                  Here are the faces of the Grizzly Hacks Cabinet.
+                  These are the individuals who seek to bring hack-a-thons to Georgia Gwinnett College!
+                  &lt;/p>
+                  &lt;br/>
+                  &lt;h3>Vi "Jimmy" Nguyen the President&lt;/h3>
+                  &lt;a target="_blank" href="https://www.linkedin.com/in/vinguyen-ggc/">&lt;img src="President_Vi_Nguyen.png" id="vi-image" class="zoom2" />&lt;/a>
+                  &lt;br/>
+                  &lt;br/>
+                  &lt;br/>
+                  &lt;h3>Phillip Chazares the Secretary&lt;/h3>
+                  &lt;a target="_blank" href="https://www.linkedin.com/in/phillip-chazares/">&lt;img src="Secretary_Phillip_Chazares.jpg" id="vi-image" class="zoom2"/>&lt;/a>
+                  &lt;br/>
+                &lt;/Fade>
+                
+                &lt;br/>
+                &lt;br/>
+                &lt;br/>
+                {/* Header text */}
+                &lt;Fade left>
+                  &lt;Header inverted as='h3' style={{ fontSize: '2em' }}>
+                    More info
+                  &lt;/Header>
+                &lt;/Fade>
+                {/* Dummy Text */}
+                &lt;Fade right>
+                  &lt;p style={{ fontSize: '1.33em' }}>
+                  If you are not looking to become a hacker and instead a sponsor please contact our Grizzly Hacks cabinet for
+                  more details. Thank you!
+                  &lt;/p>
+                &lt;/Fade>
 
-            &lt;/Grid.Column>
-          &lt;/Grid.Row>
+              &lt;/Grid.Column>
+            &lt;/Grid.Row>
 
-        &lt;/Grid>
+          &lt;/Grid>
 
-       
-        &lt;/Segment>
+        
+      &lt;/Segment>
   
   &lt;/Segment>
 
@@ -114,7 +125,7 @@ export default aboutPage
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Fri Apr 17 2020 13:28:15 GMT-0400 (Eastern Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Mon Apr 27 2020 19:52:33 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>

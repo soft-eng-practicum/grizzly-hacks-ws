@@ -35,7 +35,9 @@ import {
 } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
 
+
 function schedulePage (){
+  
 /**
  * A react element which is called by App.js.
  * This element creates the 1st schedule for Grizzly Hacks events
@@ -44,12 +46,13 @@ function schedulePage (){
  * The developer can change rows with TBA by replacing it with new text information
  */
 const firstTable= () => (
-    &lt;Segment inverted >
-  {/* This show the header for schedule  */}
-  &lt;Segment inverted style={{ padding: '1em 0em', margin: '-29px' }} vertical id="schedule">
-    &lt;Fade top>&lt;Header style={{color: 'white', marginTop: 100, padding: '30px'
-    }}size='huge'>Schedule&lt;/Header>&lt;/Fade>
-  &lt;/Segment>
+    &lt;Segment inverted>
+      {/* This show the header for schedule  */}
+      &lt;Segment inverted vertical id="schedule-header-text-container">
+        &lt;Fade top>
+          &lt;Header id = "schedule-header-text" size="huge"> Schedule &lt;/Header>
+        &lt;/Fade>
+      &lt;/Segment>
   
   {/* BEGINNING OF FIRST TABLE FOR SCHEDULE */}
   
@@ -58,100 +61,135 @@ const firstTable= () => (
   look at Semantic UI React  */}
 
   &lt;Fade bottom>
-    &lt;Table celled striped inverted fixed>
+    &lt;Table celled striped inverted >
       &lt;Table.Header>
-        &lt;Table.Row>
+        &lt;Table.Row> 
           {/* Positioning of content*/}
           &lt;Table.HeaderCell colSpan='3' collapsing textAlign='center'>Friday, Jan. 1st&lt;/Table.HeaderCell>
         &lt;/Table.Row>
       &lt;/Table.Header>
   
-  {/* First row of table  */}
+      {/* First row of table  */}
       &lt;Table.Body>
         &lt;Table.Row>
-          &lt;Table.Cell collapsing textAlign = 'center'>
+          &lt;Table.Cell  textAlign = 'center'> 
             {/* This displays the icon for "checkboard" using Semantic UI React */}
-            &lt;Icon name='clipboard check' /> TBA
-          &lt;/Table.Cell>
+            &lt;Icon name='clipboard check' /> TBA &lt;/Table.Cell>
           {/* Shows content in table  */}
-          &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
+          &lt;Table.Cell  textAlign = 'center'> TBA &lt;/Table.Cell>
           {/* Shows the time in the last column of the table  */}
-          &lt;Table.Cell collapsing textAlign='center'>
-            TBA
-          &lt;/Table.Cell>
+          &lt;Table.Cell  textAlign='center'> TBA &lt;/Table.Cell>
         &lt;/Table.Row>
         &lt;Table.Row>
   
           {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-          &lt;Table.Cell collapsing textAlign = 'center'>
+          &lt;Table.Cell  textAlign = 'center'>
             {/* Shows us the icon */}
             &lt;Icon name='star' /> TBA
           &lt;/Table.Cell>
           {/* Column content  */}
-          &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell  textAlign = 'center'>TBA&lt;/Table.Cell>
           {/* Last column content */}
-          &lt;Table.Cell textAlign = 'center'>TBA&lt;/Table.Cell>
-        &lt;/Table.Row>
+           &lt;Table.Cell textAlign = 'center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row>
   
           {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-        &lt;Table.Row>
-          &lt;Table.Cell collapsing textAlign = 'center'>
-            &lt;Icon name='bullseye' /> Workshop
-          &lt;/Table.Cell>
-          &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-          &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-        &lt;/Table.Row>
-        &lt;Table.Row>
+         &lt;Table.Row>
+           &lt;Table.Cell  textAlign = 'center'>
+             &lt;Icon name='bullseye' /> Workshop
+           &lt;/Table.Cell>
+           &lt;Table.Cell textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row>
+         &lt;Table.Row>
   
           {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
   
-          &lt;Table.Cell collapsing textAlign = 'center'>
-            &lt;Icon name='bullseye' /> Workshop
-          &lt;/Table.Cell>
+           &lt;Table.Cell collapsing textAlign = 'center'>
+             &lt;Icon name='bullseye' /> Workshop
+           &lt;/Table.Cell>
           &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-          &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-        &lt;/Table.Row>
-        &lt;Table.Row>
+           &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row> 
+         &lt;Table.Row>
   
           {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-          &lt;Table.Cell collapsing textAlign = 'center'>
-            &lt;Icon name='food' /> Dinner
-          &lt;/Table.Cell>
-          &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-          &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-        &lt;/Table.Row>
-        &lt;Table.Row>
+           &lt;Table.Cell collapsing textAlign = 'center'>
+             &lt;Icon name='food' /> Dinner
+           &lt;/Table.Cell>
+           &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row> 
+         &lt;Table.Row>
   
           {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-          &lt;Table.Cell collapsing textAlign = 'center'>
-            &lt;Icon name='bullseye' /> Workshop
-          &lt;/Table.Cell>
-          &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-          &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-        &lt;/Table.Row>
-        &lt;Table.Row>
+           &lt;Table.Cell collapsing textAlign = 'center'>
+             &lt;Icon name='bullseye' /> Workshop
+           &lt;/Table.Cell>
+           &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row>
+         &lt;Table.Row>
   
           {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-          &lt;Table.Cell collapsing textAlign = 'center'>
-            &lt;Icon name='bullseye' /> Workshop
-          &lt;/Table.Cell>
-          &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-          &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-        &lt;/Table.Row>
+       &lt;Table.Cell collapsing textAlign = 'center'>
+             &lt;Icon name='bullseye' /> Workshop
+           &lt;/Table.Cell>
+           &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell textAlign='center'> TBA &lt;/Table.Cell>
+       &lt;/Table.Row>
   
         &lt;Table.Row>
-          {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-          &lt;Table.Cell collapsing textAlign = 'center'>
-            &lt;Icon name='bullseye' /> Workshop
-          &lt;/Table.Cell>
+          {/* Every row afterwards works the same way as the first row. (Look at first row for explanation) */}
+          &lt;Table.Cell collapsing textAlign = 'center'> &lt;Icon name='bullseye' /> Workshop &lt;/Table.Cell>
+
+          &lt;Table.Cell collapsing textAlign = 'center'> TBA &lt;/Table.Cell>
   
-          &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-  
-          &lt;Table.Cell textAlign = 'center'>TBA&lt;/Table.Cell>
-        &lt;/Table.Row>
-      &lt;/Table.Body>
-    &lt;/Table>
-&lt;/Fade>
+           &lt;Table.Cell textAlign = 'center'> TBA &lt;/Table.Cell>
+         &lt;/Table.Row>
+       &lt;/Table.Body> 
+     &lt;/Table>
+ &lt;/Fade>
+
+   {/* &lt;div>
+     &lt;Fade bottom>
+      &lt;table id = "table1" class = "center">
+        &lt;tr>
+          &lt;th colSpan = "3"> Saturday, Jan. 1st &lt;/th>
+        &lt;/tr>
+          &lt;tr>
+            &lt;td> &lt;Icon name='clipboard check' /> TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+          &lt;/tr> 
+          &lt;tr>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+            &lt;td>TBA&lt;/td>
+          &lt;/tr>
+      &lt;/table>
+     &lt;/Fade>
+     &lt;/div> */}
 
 
 &lt;br>
@@ -184,102 +222,97 @@ const secondTable = () => (
 {/* inverted is added so it appears black. If you want to learn more about tables
 look at Semantic UI React  */}
 
+
 &lt;Fade bottom>
-  &lt;Table celled striped inverted fixed>
-    &lt;Table.Header>
-      &lt;Table.Row>
-        {/* Positioning of content*/}
-        &lt;Table.HeaderCell colSpan='3' collapsing textAlign='center'>Saturday, Jan. 1st&lt;/Table.HeaderCell>
-      &lt;/Table.Row>
-    &lt;/Table.Header>
+    &lt;Table celled striped inverted >
+      &lt;Table.Header>
+        &lt;Table.Row> 
+          {/* Positioning of content*/}
+          &lt;Table.HeaderCell colSpan='3' collapsing textAlign='center'>Saturday, Jan. 1st&lt;/Table.HeaderCell>
+        &lt;/Table.Row>
+      &lt;/Table.Header>
+  
+      {/* First row of table  */}
+      &lt;Table.Body>
+        &lt;Table.Row>
+          &lt;Table.Cell  textAlign = 'center'> 
+            {/* This displays the icon for "checkboard" using Semantic UI React */}
+            &lt;Icon name='clipboard check' /> TBA &lt;/Table.Cell>
+          {/* Shows content in table  */}
+          &lt;Table.Cell  textAlign = 'center'> TBA &lt;/Table.Cell>
+          {/* Shows the time in the last column of the table  */}
+          &lt;Table.Cell  textAlign='center'> TBA &lt;/Table.Cell>
+        &lt;/Table.Row>
+        &lt;Table.Row>
+  
+          {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+          &lt;Table.Cell  textAlign = 'center'>
+            {/* Shows us the icon */}
+            &lt;Icon name='star' /> TBA
+          &lt;/Table.Cell>
+          {/* Column content  */}
+           &lt;Table.Cell  textAlign = 'center'>TBA&lt;/Table.Cell>
+          {/* Last column content */}
+           &lt;Table.Cell textAlign = 'center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row>
+  
+          {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+         &lt;Table.Row>
+           &lt;Table.Cell  textAlign = 'center'>
+             &lt;Icon name='bullseye' /> Workshop
+           &lt;/Table.Cell>
+           &lt;Table.Cell textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row>
+         &lt;Table.Row>
+  
+          {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+  
+           &lt;Table.Cell collapsing textAlign = 'center'>
+             &lt;Icon name='bullseye' /> Workshop
+           &lt;/Table.Cell>
+          &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row> 
+         &lt;Table.Row>
+  
+          {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+           &lt;Table.Cell collapsing textAlign = 'center'>
+             &lt;Icon name='food' /> Dinner
+           &lt;/Table.Cell>
+           &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row> 
+         &lt;Table.Row>
+  
+          {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+           &lt;Table.Cell collapsing textAlign = 'center'>
+             &lt;Icon name='bullseye' /> Workshop
+           &lt;/Table.Cell>
+           &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
+         &lt;/Table.Row>
+         &lt;Table.Row>
+  
+          {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
+       &lt;Table.Cell collapsing textAlign = 'center'>
+             &lt;Icon name='bullseye' /> Workshop
+           &lt;/Table.Cell>
+           &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
+           &lt;Table.Cell textAlign='center'> TBA &lt;/Table.Cell>
+       &lt;/Table.Row>
+  
+        &lt;Table.Row>
+          {/* Every row afterwards works the same way as the first row. (Look at first row for explanation) */}
+          &lt;Table.Cell collapsing textAlign = 'center'> &lt;Icon name='bullseye' /> Workshop &lt;/Table.Cell>
 
-{/* First row of table  */}
-    &lt;Table.Body>
-      &lt;Table.Row>
-        &lt;Table.Cell collapsing textAlign = 'center'>
-          {/* This displays the icon for "checkboard" using Semantic UI React */}
-          &lt;Icon name='food' /> Breakfeast
-        &lt;/Table.Cell>
-        {/* Shows content in table  */}
-        &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-        {/* Shows the time in the last column of the table  */}
-        &lt;Table.Cell collapsing textAlign='center'>
-          TBA
-        &lt;/Table.Cell>
-      &lt;/Table.Row>
-      &lt;Table.Row>
-
-        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-        &lt;Table.Cell collapsing textAlign = 'center'>
-          {/* Shows us the icon */}
-          &lt;Icon name='bullseye' /> TBA
-        &lt;/Table.Cell>
-        {/* Column content  */}
-        &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-        {/* Last column content */}
-        &lt;Table.Cell textAlign = 'center'>TBA&lt;/Table.Cell>
-      &lt;/Table.Row>
-
-        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-      &lt;Table.Row>
-        &lt;Table.Cell collapsing textAlign = 'center'>
-          &lt;Icon name='bullseye' /> Workshop
-        &lt;/Table.Cell>
-        &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-        &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-      &lt;/Table.Row>
-      &lt;Table.Row>
-
-        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-
-        &lt;Table.Cell collapsing textAlign = 'center'>
-          &lt;Icon name='bullseye' /> Workshop
-        &lt;/Table.Cell>
-        &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-        &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-      &lt;/Table.Row>
-      &lt;Table.Row>
-
-        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-        &lt;Table.Cell collapsing textAlign = 'center'>
-          &lt;Icon name='food' /> Dinner
-        &lt;/Table.Cell>
-        &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-        &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-      &lt;/Table.Row>
-      &lt;Table.Row>
-
-        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-        &lt;Table.Cell collapsing textAlign = 'center'>
-          &lt;Icon name='bullseye' /> Workshop
-        &lt;/Table.Cell>
-        &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-        &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-      &lt;/Table.Row>
-      &lt;Table.Row>
-
-        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-        &lt;Table.Cell collapsing textAlign = 'center'>
-          &lt;Icon name='bullseye' /> Workshop
-        &lt;/Table.Cell>
-        &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-        &lt;Table.Cell textAlign='center'>TBA&lt;/Table.Cell>
-      &lt;/Table.Row>
-
-      &lt;Table.Row>
-        {/* Every row afterwards works the same way as the first row. (Look at first row for explanation)  */}
-        &lt;Table.Cell collapsing textAlign = 'center'>
-          &lt;Icon name='bullseye' /> Workshop
-        &lt;/Table.Cell>
-
-        &lt;Table.Cell collapsing textAlign = 'center'>TBA&lt;/Table.Cell>
-
-        &lt;Table.Cell textAlign = 'center'>TBA&lt;/Table.Cell>
-      &lt;/Table.Row>
-    &lt;/Table.Body>
-  &lt;/Table>
-&lt;/Fade>
-
+          &lt;Table.Cell collapsing textAlign = 'center'> TBA &lt;/Table.Cell>
+  
+           &lt;Table.Cell textAlign = 'center'> TBA &lt;/Table.Cell>
+         &lt;/Table.Row>
+       &lt;/Table.Body> 
+     &lt;/Table>
+ &lt;/Fade>
 &lt;/Segment>
 ) 
 
@@ -311,7 +344,7 @@ export default schedulePage
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Fri Apr 17 2020 13:28:15 GMT-0400 (Eastern Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Mon Apr 27 2020 19:52:33 GMT-0400 (Eastern Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>
